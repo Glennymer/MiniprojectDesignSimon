@@ -15,7 +15,11 @@ public class LoanController
     }
 
     public void createLoan(Person p) {
-        loan = LoanContainer.createLoan(p);
+        setLoan(LoanContainer.createLoan(p));
+    }
+    
+    public void setLoan(Loan l) {
+        this.loan = l;
     }
     
     public boolean addBookItemToLoan(BookItem bt) {

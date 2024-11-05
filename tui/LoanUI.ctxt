@@ -12,4 +12,6 @@ comment5.params=
 comment5.target=void\ deleteLoan()
 comment6.params=p
 comment6.target=java.util.ArrayList\ getLoans(model.Person)
-numComments=7
+comment7.params=l
+comment7.target=void\ setLoan(model.Loan)
+numComments=8

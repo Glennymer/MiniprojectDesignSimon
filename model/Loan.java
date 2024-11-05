@@ -21,6 +21,10 @@ public class Loan
         this.bookItems = new ArrayList<>();
     }
     
+    public boolean isEmpty() {
+        return this.bookItems.size() == 0;
+    }
+    
     public void setLoanNumber(int loanNumber){
         this.loanNumber = loanNumber;
     }

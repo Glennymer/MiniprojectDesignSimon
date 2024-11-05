@@ -117,6 +117,10 @@ public class LoanMenu {
                 for (Loan l : lui.getLoans(p)) {
                     r = r || l.deleteBookItem(bt);
                     bt.setAvailable();
+                    if (l.isEmpty()) {
+                        lui.setLoan(l);
+                        lui.deleteLoan();
+                    }
                 }
                 if (r) System.out.println("Bogkopi afleveret.");
                 else System.out.println("Bogkopi ikke udlånt til person.");

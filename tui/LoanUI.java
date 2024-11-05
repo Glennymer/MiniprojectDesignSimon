@@ -33,4 +33,8 @@ public class LoanUI
     public ArrayList<Loan> getLoans(Person p) {
         return lc.getLoans(p);
     }
+    
+    public void setLoan(Loan l) {
+        lc.setLoan(l);
+    }
 }

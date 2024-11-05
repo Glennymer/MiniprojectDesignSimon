@@ -115,6 +115,7 @@ public class PersonMenu
     
     private void deletePerson(Person p) {
         if (p != null) {
+            System.out.println(lui.getLoans(p).size());
             if (lui.getLoans(p).size() == 0) {
                 pui.deletePerson(p);
                 System.out.println("Person slettet fra database.");
