@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=LoanContainer
+comment1.params=
+comment1.target=LoanContainer()
+comment2.params=
+comment2.target=void\ incrementLoanNumber()
+comment3.params=
+comment3.target=LoanContainer\ getInstance()
+comment4.params=person
+comment4.target=Loan\ createLoan(Person)
+comment5.params=loanNumber
+comment5.target=void\ deleteLoanByLoanNumber(int)
+comment6.params=p
+comment6.target=java.util.ArrayList\ getLoans(Person)
+numComments=7

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=LoanController
+comment1.params=
+comment1.target=LoanController()
+comment2.params=p
+comment2.target=void\ createLoan(model.Person)
+comment3.params=bt
+comment3.target=boolean\ addBookItemToLoan(model.BookItem)
+comment4.params=
+comment4.target=void\ completeLoan()
+comment5.params=
+comment5.target=void\ deleteLoan()
+comment6.params=p
+comment6.target=java.util.ArrayList\ getLoans(model.Person)
+numComments=7

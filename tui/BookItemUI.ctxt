@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BookItemUI
+comment1.params=
+comment1.target=BookItemUI()
+comment2.params=
+comment2.target=java.lang.String\ writeBookItem()
+comment3.params=barCode
+comment3.target=model.BookItem\ searchBookItemByBarcode(java.lang.String)
+comment4.params=
+comment4.target=void\ addBookItem()
+comment5.params=
+comment5.target=void\ readBookItem()
+comment6.params=
+comment6.target=void\ updateBookItem()
+comment7.params=
+comment7.target=void\ deleteBookItem()
+comment8.params=keyboard
+comment8.target=int\ getIntegerFromUser(java.util.Scanner)
+numComments=9

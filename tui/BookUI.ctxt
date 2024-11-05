@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=BookUI
+comment1.params=
+comment1.target=BookUI()
+comment2.params=
+comment2.target=void\ addBook()
+comment3.params=
+comment3.target=void\ readBook()
+comment4.params=
+comment4.target=void\ updateBook()
+comment5.params=
+comment5.target=void\ deleteBook()
+comment6.params=keyboard
+comment6.target=int\ getIntegerFromUser(java.util.Scanner)
+numComments=7

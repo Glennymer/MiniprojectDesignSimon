@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Loan
+comment1.params=person
+comment1.target=Loan(Person)
+comment2.params=loanNumber
+comment2.target=void\ setLoanNumber(int)
+comment3.params=
+comment3.target=int\ getLoanNumber()
+comment4.params=bt
+comment4.target=boolean\ addBookItemToLoan(BookItem)
+comment5.params=
+comment5.target=void\ completeLoan()
+comment6.params=
+comment6.target=Person\ getPerson()
+comment7.params=
+comment7.target=java.util.ArrayList\ getBookItems()
+comment8.params=bt
+comment8.target=boolean\ deleteBookItem(BookItem)
+numComments=9

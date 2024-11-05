@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=PersonContainer
+comment1.params=
+comment1.target=PersonContainer()
+comment2.params=
+comment2.target=PersonContainer\ getInstance()
+comment3.params=name
+comment3.target=Person\ searchPersonByName(java.lang.String)
+comment4.params=phone
+comment4.target=Person\ searchPersonByPhone(java.lang.String)
+comment5.params=p
+comment5.target=void\ addPerson(Person)
+comment6.params=p
+comment6.target=void\ deletePerson(Person)
+numComments=7

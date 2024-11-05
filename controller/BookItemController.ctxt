@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=BookItemController
+comment1.params=
+comment1.target=BookItemController()
+comment2.params=barCode
+comment2.target=model.BookItem\ searchBookItemByBarcode(java.lang.String)
+comment3.params=bt
+comment3.target=void\ addBookItem(model.BookItem)
+comment4.params=barCode
+comment4.target=void\ readBookItem(java.lang.String)
+comment5.params=barCode
+comment5.target=void\ deleteBookItemByBarCode(java.lang.String)
+comment6.params=ISBN
+comment6.target=void\ deleteBookItemsByISBNNumber(java.lang.String)
+numComments=7

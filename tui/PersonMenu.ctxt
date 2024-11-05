@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=PersonMenu
+comment1.params=
+comment1.target=PersonMenu()
+comment2.params=
+comment2.target=void\ start()
+comment3.params=
+comment3.target=void\ personMenu()
+comment4.params=p
+comment4.target=void\ deletePerson(model.Person)
+comment5.params=p
+comment5.target=void\ printPerson(model.Person)
+comment6.params=
+comment6.target=int\ writePersonMenu()
+comment7.params=keyboard
+comment7.target=int\ getIntegerFromUser(java.util.Scanner)
+comment8.params=
+comment8.target=int\ writeSearchForPersonMenu()
+numComments=9

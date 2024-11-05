@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=BookItem
+comment1.params=book\ purchaseDate\ purchasePrice\ barCode
+comment1.target=BookItem(Book,\ java.util.Calendar,\ float,\ java.lang.String)
+comment10.params=barCode
+comment10.target=void\ setBarCode(java.lang.String)
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=java.lang.String\ getBarCode()
+comment3.params=
+comment3.target=boolean\ isAvailable()
+comment4.params=
+comment4.target=void\ setUnavailable()
+comment5.params=
+comment5.target=void\ setAvailable()
+comment6.params=book
+comment6.target=void\ setBook(Book)
+comment7.params=
+comment7.target=Book\ getBook()
+comment8.params=purchaseDate
+comment8.target=void\ setPurchaseDate(java.util.Calendar)
+comment9.params=purchasePrice
+comment9.target=void\ setPurchasePrice(float)
+numComments=12
