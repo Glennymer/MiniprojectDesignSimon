@@ -48,7 +48,8 @@ public class BookItemUI
             }
             if (ISBN.length() == 17) {
                 book = bc.searchBookByISBN(ISBN);
-                break;
+                if (book != null) break;
+                else System.out.println("Bog ikke fundet i  database. Prøv igen.");
             }
             System.out.println("Det indtastede ISBN er i forkert format. Prøv igen.");
         }
@@ -168,9 +169,13 @@ public class BookItemUI
                                     ISBN = keyboard.next();
                                     if (ISBN.equals("esc")) break;
                                     if (ISBN.length() == 17) {
-                                         bt.setBook(bc.searchBookByISBN(ISBN));
-                                         System.out.println("Bogkopi opdateret med bog.");
-                                         break;
+                                         Book b = bc.searchBookByISBN(ISBN);
+                                         if (b != null) {
+                                             bt.setBook(b);
+                                             System.out.println("Bogkopi opdateret med bog.");
+                                             break;
+                                         } else System.out.println("Bog ikke fundet i database. Prøv igen.");
+                                         
                                     };
                                     System.out.println("Det indtastede ISBN er i forkert format. Prøv igen.");
                                 }
